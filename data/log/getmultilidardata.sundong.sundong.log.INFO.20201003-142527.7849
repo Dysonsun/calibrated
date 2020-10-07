@@ -1,0 +1,1812 @@
+Log file created at: 2020/10/03 14:25:27
+Running on machine: sundong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1003 14:25:27.653614  7849 configuration_file_resolver.cc:38] Found '/home/sundong/bit_ivrc/calibrationlidar/src/sensor_driver/sensor_driver/config/extrinsicparameter/cw/0.lua' for '0.lua'.
+I1003 14:25:27.653797  7849 configuration_file_resolver.cc:47] /home/sundong/bit_ivrc/calibrationlidar/src/sensor_driver/sensor_driver/config/extrinsicparameter/cw/0.lua
+I1003 14:25:27.656265  7849 myhdl_grabber.cpp:257] test1
+I1003 14:25:27.656313  7849 myhdl_grabber.cpp:281] test2
+I1003 14:25:27.656780  7849 configuration_file_resolver.cc:38] Found '/home/sundong/bit_ivrc/calibrationlidar/src/sensor_driver/sensor_driver/config/extrinsicparameter/cw/1.lua' for '1.lua'.
+I1003 14:25:27.656788  7849 configuration_file_resolver.cc:47] /home/sundong/bit_ivrc/calibrationlidar/src/sensor_driver/sensor_driver/config/extrinsicparameter/cw/1.lua
+I1003 14:25:27.656958  7849 myhdl_grabber.cpp:257] test1
+I1003 14:25:27.656975  7849 myhdl_grabber.cpp:281] test2
+I1003 14:25:27.657202  7849 configuration_file_resolver.cc:38] Found '/home/sundong/bit_ivrc/calibrationlidar/src/sensor_driver/sensor_driver/config/extrinsicparameter/cw/2.lua' for '2.lua'.
+I1003 14:25:27.657208  7849 configuration_file_resolver.cc:47] /home/sundong/bit_ivrc/calibrationlidar/src/sensor_driver/sensor_driver/config/extrinsicparameter/cw/2.lua
+I1003 14:25:27.657352  7849 myhdl_grabber.cpp:257] test1
+I1003 14:25:27.657368  7849 myhdl_grabber.cpp:281] test2
+W1003 14:25:27.657668  7916 getmultilidardata.cpp:371] filter:udp  and (dst port 5017 or dst port 9001 or dst port 9901 or dst port 9902 or dst port 9903)
+I1003 14:25:27.770020  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:27.770040  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:27.770052  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:27.770882  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:27.770905  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:27.770913  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:27.770916  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:27.771392  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:27.771845  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:27.772460  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:27.772475  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:27.772814  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:27.772816  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:27.772819  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:27.773048  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:27.773066  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:27.773077  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:27.773898  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:27.773869  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:27.773929  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:27.774308  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:27.774312  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:27.774314  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:27.774562  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:27.774566  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:27.775094  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:27.775097  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:27.775578  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:27.869938  7913 myhdl_grabber.cpp:565] id:0 temprotation:4 last_azimuth_35984
+I1003 14:25:27.869952  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:27.869956  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:27.870388  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:27.870406  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:27.870410  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:27.871140  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:27.871146  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:27.871316  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:27.871332  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:27.871450  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:27.871454  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:27.871459  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:27.871711  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:27.871716  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:27.871718  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:27.969892  7913 myhdl_grabber.cpp:565] id:0 temprotation:4 last_azimuth_35984
+I1003 14:25:27.969945  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:27.969949  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:27.970358  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:27.970362  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:27.970366  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:27.971187  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:27.971194  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:27.971405  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:27.971408  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:27.971410  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:27.971698  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:27.971701  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:27.971968  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:27.971972  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:27.971974  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:27.973506  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:28.062541  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.062554  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=64800
+I1003 14:25:28.062556  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=101280
+I1003 14:25:28.064993  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.065001  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=64800
+I1003 14:25:28.065002  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=101280
+I1003 14:25:28.067879  7849 getmultilidardata.cpp:1580]  time:0.294796
+I1003 14:25:28.067917  7849 getmultilidardata.cpp:1600] pub pointcloud:137779
+I1003 14:25:28.068181  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.068997  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.069006  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.069787  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.069794  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.070304  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.070309  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.070856  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.070863  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.071419  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:28.071444  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.071450  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:28.071460  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:28.071463  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.072144  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.072155  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:28.072157  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:28.073230  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.073246  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:28.073249  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:28.072244  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.073967  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:28.073976  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:28.074997  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.075016  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:28.075273  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.075278  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:28.075281  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:28.075793  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.075837  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:28.076210  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.076215  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:28.076217  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:28.076392  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.076474  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:28.076478  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:28.077163  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.077170  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:28.077173  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:28.077657  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:28.171833  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:28.171846  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.171862  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:28.172236  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.172240  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:28.172243  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:28.173390  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.173399  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:28.173774  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.173776  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:28.173779  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:28.173914  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.173928  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:28.174234  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.174238  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:28.174242  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:28.272977  7913 myhdl_grabber.cpp:565] id:0 temprotation:12 last_azimuth_35992
+I1003 14:25:28.272992  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.272997  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:28.273380  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.273382  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:28.273386  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:28.274703  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.274713  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:28.274963  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.274966  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:28.274969  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:28.275297  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.275303  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:28.275561  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.275565  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:28.275568  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:28.289618  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:28.322161  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.322187  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57760
+I1003 14:25:28.322190  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88880
+I1003 14:25:28.324091  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.324100  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57760
+I1003 14:25:28.324101  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88880
+I1003 14:25:28.326504  7849 getmultilidardata.cpp:1580]  time:0.355317
+I1003 14:25:28.326524  7849 getmultilidardata.cpp:1600] pub pointcloud:121155
+I1003 14:25:28.326529  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.326766  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.326771  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.327216  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.327220  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.327948  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.327972  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.328759  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.328764  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.329247  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.329252  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.329771  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:28.332969  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.332980  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58016
+I1003 14:25:28.332983  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90672
+I1003 14:25:28.335587  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.335599  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58016
+I1003 14:25:28.335602  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90672
+I1003 14:25:28.337190  7849 getmultilidardata.cpp:1580]  time:0.262197
+I1003 14:25:28.337213  7849 getmultilidardata.cpp:1600] pub pointcloud:123491
+I1003 14:25:28.337218  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.337566  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.337571  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.337855  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.337862  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.338501  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.338508  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.339311  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.339318  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:28.339319  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:28.339793  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.339802  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:28.339803  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:28.340238  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.340245  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.340615  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.340618  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.340983  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:28.342929  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.342938  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58208
+I1003 14:25:28.342941  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89920
+I1003 14:25:28.344547  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.344554  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58208
+I1003 14:25:28.344556  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89920
+I1003 14:25:28.346041  7849 getmultilidardata.cpp:1580]  time:0.172127
+I1003 14:25:28.346066  7849 getmultilidardata.cpp:1600] pub pointcloud:122035
+I1003 14:25:28.346071  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.346768  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.346774  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.347596  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.347601  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.348147  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.348152  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.348554  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:28.348558  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.348992  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.348995  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.349439  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.371546  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.371560  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58336
+I1003 14:25:28.371562  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90992
+I1003 14:25:28.372879  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.372885  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58336
+I1003 14:25:28.372886  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90992
+I1003 14:25:28.374264  7849 getmultilidardata.cpp:1580]  time:0.0989628
+I1003 14:25:28.374318  7849 getmultilidardata.cpp:1600] pub pointcloud:123267
+I1003 14:25:28.374361  7913 myhdl_grabber.cpp:565] id:0 temprotation:8 last_azimuth_35988
+I1003 14:25:28.374385  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.374389  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:28.374778  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.374799  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:28.374802  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:28.374830  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.375551  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.375687  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.376024  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.376031  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:28.376374  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.376454  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.376456  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.376458  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:28.376461  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:28.376870  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.376899  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.376955  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.376958  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:28.377317  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.377365  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.377367  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.377369  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:28.377372  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:28.377856  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.377907  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.378368  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:28.474977  7913 myhdl_grabber.cpp:565] id:0 temprotation:4 last_azimuth_35984
+I1003 14:25:28.474992  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.474997  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:28.475423  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.475428  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:28.475431  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:28.476320  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.476330  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:28.476536  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.476539  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:28.476542  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:28.476814  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.476822  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:28.477037  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.477041  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:28.477042  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:28.576290  7913 myhdl_grabber.cpp:565] id:0 temprotation:4 last_azimuth_35988
+I1003 14:25:28.576304  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.576308  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:28.576711  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.576716  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:28.576719  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:28.578538  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.578550  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:28.578670  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.578691  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:28.578915  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.578935  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:28.578938  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:28.579401  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.579408  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:28.579411  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:28.605470  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:28.636044  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.636062  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58400
+I1003 14:25:28.636065  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90656
+I1003 14:25:28.637766  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.637775  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58400
+I1003 14:25:28.637778  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90656
+I1003 14:25:28.638649  7849 getmultilidardata.cpp:1580]  time:0.261696
+I1003 14:25:28.638684  7849 getmultilidardata.cpp:1600] pub pointcloud:123299
+I1003 14:25:28.638689  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.639175  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.639183  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.639709  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.639714  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.640090  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.640095  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.640429  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:28.640432  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.640709  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.640712  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.641074  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.641078  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:28.641080  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:28.641692  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.641698  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:28.641700  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:28.642253  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.642258  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:28.642261  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:28.642611  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.642614  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:28.642616  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:28.642899  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.642902  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:28.642904  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:28.643187  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.643191  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:28.643193  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:28.643551  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:28.645519  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.645526  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58240
+I1003 14:25:28.645529  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90512
+I1003 14:25:28.647291  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.647300  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58240
+I1003 14:25:28.647301  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90512
+I1003 14:25:28.648561  7849 getmultilidardata.cpp:1580]  time:0.0698894
+I1003 14:25:28.648576  7849 getmultilidardata.cpp:1600] pub pointcloud:123155
+I1003 14:25:28.676831  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:28.676865  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.676869  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:28.677223  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.677227  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:28.677228  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.677229  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:28.677942  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.678040  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.678419  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.678442  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:28.678731  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.678738  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:28.678742  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:28.679155  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.679177  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:28.679183  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.679200  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.679642  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.679643  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.679644  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:28.679646  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.679648  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:28.680133  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.680136  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.680410  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.680413  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.680593  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:28.776796  7913 myhdl_grabber.cpp:565] id:0 temprotation:4 last_azimuth_35984
+I1003 14:25:28.776811  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.776829  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:28.777267  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.777272  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:28.777276  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:28.778081  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.778096  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:28.778335  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.778339  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:28.778342  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:28.778086  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.778594  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:28.778861  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.778863  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:28.778865  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:28.876760  7913 myhdl_grabber.cpp:565] id:0 temprotation:8 last_azimuth_35988
+I1003 14:25:28.876772  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.876776  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:28.877192  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.877197  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:28.877199  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:28.878337  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.878345  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:28.878543  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.878547  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:28.878549  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:28.878799  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.878809  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:28.879050  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.879055  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:28.879056  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:28.921491  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:28.930402  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.930428  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58048
+I1003 14:25:28.930430  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90304
+I1003 14:25:28.931994  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.932001  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58048
+I1003 14:25:28.932003  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90304
+I1003 14:25:28.932642  7849 getmultilidardata.cpp:1580]  time:0.253487
+I1003 14:25:28.933113  7849 getmultilidardata.cpp:1600] pub pointcloud:122563
+I1003 14:25:28.933122  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.933959  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.933984  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.935770  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.935792  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.936410  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.936424  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.936936  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.936944  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.937443  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.937450  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.937988  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:28.940358  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.940393  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57760
+I1003 14:25:28.940408  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89248
+I1003 14:25:28.942265  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.942274  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57760
+I1003 14:25:28.942276  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89248
+I1003 14:25:28.943511  7849 getmultilidardata.cpp:1580]  time:0.165419
+I1003 14:25:28.944716  7849 getmultilidardata.cpp:1600] pub pointcloud:120755
+I1003 14:25:28.944727  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.945678  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.945688  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.946583  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.946594  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.947214  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.947227  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.947741  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:28.947748  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.948087  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.948091  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.948395  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.970234  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.970247  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57536
+I1003 14:25:28.970250  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90176
+I1003 14:25:28.971536  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:28.971544  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57536
+I1003 14:25:28.971545  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90176
+I1003 14:25:28.972229  7849 getmultilidardata.cpp:1580]  time:0.0934299
+I1003 14:25:28.972982  7849 getmultilidardata.cpp:1600] pub pointcloud:122435
+I1003 14:25:28.978561  7913 myhdl_grabber.cpp:565] id:0 temprotation:8 last_azimuth_35988
+I1003 14:25:28.978582  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.978587  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:28.979310  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.979329  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:28.979331  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:28.979336  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.980556  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:28.980645  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.980707  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:28.980937  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:28.981362  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.981367  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:28.981372  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:28.982254  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:28.982261  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:28.982786  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:28.982790  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:28.982795  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:28.983886  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:28.983891  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.984339  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:28.984342  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:28.984688  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:28.984689  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.984963  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:28.984966  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:28.985288  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:29.075320  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:29.075333  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.075337  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:29.075721  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.075723  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:29.075726  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:29.076798  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.076807  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:29.076982  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.076985  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:29.076988  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:29.077560  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.077569  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:29.077783  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.077786  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:29.077788  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:29.173930  7913 myhdl_grabber.cpp:565] id:0 temprotation:2 last_azimuth_35982
+I1003 14:25:29.173943  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.173947  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:29.174379  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.174383  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:29.174386  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:29.175253  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.175276  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:29.175469  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.175472  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:29.175475  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:29.175927  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.175935  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:29.176180  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.176183  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:29.176185  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:29.236110  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.236125  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57312
+I1003 14:25:29.236127  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89568
+I1003 14:25:29.237430  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.237438  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57312
+I1003 14:25:29.237440  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89568
+I1003 14:25:29.237648  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:29.238386  7849 getmultilidardata.cpp:1580]  time:0.256135
+I1003 14:25:29.238857  7849 getmultilidardata.cpp:1600] pub pointcloud:122211
+I1003 14:25:29.238865  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.239625  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:29.239634  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.240458  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:29.240465  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.240768  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:29.240772  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.241016  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:29.241020  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.241413  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:29.241418  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.242027  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:29.244261  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.244268  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57152
+I1003 14:25:29.244271  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88256
+I1003 14:25:29.245326  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.245332  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57152
+I1003 14:25:29.245334  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88256
+I1003 14:25:29.245901  7849 getmultilidardata.cpp:1580]  time:0.168342
+I1003 14:25:29.246367  7849 getmultilidardata.cpp:1600] pub pointcloud:119379
+I1003 14:25:29.246376  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.247231  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:29.247238  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.248019  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:29.248026  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.248314  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:29.248318  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.248594  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:29.248597  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.248828  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:29.248832  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.249061  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:29.251369  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.251395  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=56992
+I1003 14:25:29.251397  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88480
+I1003 14:25:29.253259  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.253284  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=56992
+I1003 14:25:29.253286  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88480
+I1003 14:25:29.254420  7849 getmultilidardata.cpp:1580]  time:0.078491
+I1003 14:25:29.254936  7849 getmultilidardata.cpp:1600] pub pointcloud:119987
+I1003 14:25:29.273279  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:29.273337  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.273344  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:29.274266  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.274287  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:29.274291  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:29.274338  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.275481  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.275487  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:29.275813  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.275815  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:29.275818  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:29.276044  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.276054  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:29.276346  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:29.276350  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.276544  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.276588  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:29.276592  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:29.277263  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:29.277266  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.277541  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:29.277544  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.277819  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:29.277840  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.278334  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:29.278338  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.278878  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:29.371882  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:29.371896  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.371901  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:29.372265  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.372273  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:29.372278  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:29.373206  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.373229  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:29.373420  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.373423  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:29.373426  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:29.373953  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.373961  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:29.374228  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.374231  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:29.374233  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:29.471277  7913 myhdl_grabber.cpp:565] id:0 temprotation:12 last_azimuth_35992
+I1003 14:25:29.471328  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.471333  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:29.471773  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.471777  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:29.471781  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:29.472863  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.472885  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:29.473140  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.473143  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:29.473146  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:29.473554  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.473575  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:29.473773  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.473776  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:29.473778  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:29.547238  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.547255  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=56992
+I1003 14:25:29.547258  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89248
+I1003 14:25:29.548349  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.548357  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=56992
+I1003 14:25:29.548358  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89248
+I1003 14:25:29.548972  7849 getmultilidardata.cpp:1580]  time:0.272946
+I1003 14:25:29.549717  7849 getmultilidardata.cpp:1600] pub pointcloud:121123
+I1003 14:25:29.549729  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.550698  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:29.550710  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.551581  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:29.551592  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.551956  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:29.551964  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.552281  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:29.552309  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.552747  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:29.552752  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.553105  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:29.553678  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:29.554425  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.554430  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57024
+I1003 14:25:29.554431  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88144
+I1003 14:25:29.555464  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.555467  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57024
+I1003 14:25:29.555469  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88144
+I1003 14:25:29.556977  7849 getmultilidardata.cpp:1580]  time:0.183024
+I1003 14:25:29.558524  7849 getmultilidardata.cpp:1600] pub pointcloud:119635
+I1003 14:25:29.558534  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.559343  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:29.559353  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.560341  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:29.560350  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.560622  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:29.560627  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.560994  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:29.560998  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.561354  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:29.561358  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.561761  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:29.563771  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.563779  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57120
+I1003 14:25:29.563781  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88992
+I1003 14:25:29.565017  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.565033  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57120
+I1003 14:25:29.565034  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88992
+I1003 14:25:29.565637  7849 getmultilidardata.cpp:1580]  time:0.0920855
+I1003 14:25:29.566126  7849 getmultilidardata.cpp:1600] pub pointcloud:120867
+I1003 14:25:29.570397  7913 myhdl_grabber.cpp:565] id:0 temprotation:4 last_azimuth_35984
+I1003 14:25:29.570411  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.570415  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:29.570885  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.570888  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:29.570891  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:29.570916  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.571615  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:29.571698  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.571941  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.571951  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:29.572312  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.572314  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:29.572317  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:29.572674  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.572679  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:29.572854  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:29.572876  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.573009  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.573012  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:29.573016  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:29.573349  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:29.573352  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.573662  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:29.573664  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.573945  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:29.573947  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.574139  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:29.670385  7913 myhdl_grabber.cpp:565] id:0 temprotation:8 last_azimuth_35988
+I1003 14:25:29.670399  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.670403  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:29.671036  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.671039  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:29.671042  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:29.672039  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.672049  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:29.672240  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.672241  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:29.672245  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:29.672753  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.672762  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:29.672998  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.673002  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:29.673003  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:29.770354  7913 myhdl_grabber.cpp:565] id:0 temprotation:2 last_azimuth_35982
+I1003 14:25:29.770366  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.770370  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:29.770980  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.770984  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:29.770987  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:29.772313  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.772336  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:29.772536  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.772539  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:29.772541  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:29.772876  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.772881  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:29.773200  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.773203  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:29.773205  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:29.844712  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.844727  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57312
+I1003 14:25:29.844728  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89184
+I1003 14:25:29.846251  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.846256  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57312
+I1003 14:25:29.846258  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89184
+I1003 14:25:29.846920  7849 getmultilidardata.cpp:1580]  time:0.274246
+I1003 14:25:29.847409  7849 getmultilidardata.cpp:1600] pub pointcloud:120691
+I1003 14:25:29.847419  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.848166  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:29.848174  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.849128  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:29.849136  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.849484  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:29.849490  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.849776  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:29.849781  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.850113  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:29.850128  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.850569  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:29.852267  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.852275  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57568
+I1003 14:25:29.852277  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89440
+I1003 14:25:29.854813  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:29.854866  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57568
+I1003 14:25:29.854868  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89440
+I1003 14:25:29.856487  7849 getmultilidardata.cpp:1580]  time:0.183732
+I1003 14:25:29.857317  7849 getmultilidardata.cpp:1600] pub pointcloud:121715
+I1003 14:25:29.857326  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.858032  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:29.858040  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.858741  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:29.858747  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.859122  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:29.859128  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:29.859463  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:29.859470  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.859818  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:29.859823  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:29.860217  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:29.869522  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:29.871248  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:29.871259  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.871263  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:29.872081  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.872084  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:29.872108  7913 myhdl_grabber.cpp:754] temper_index_=25
+E1003 14:25:29.872117  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:29.872123  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:29.873315  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:29.873327  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:29.873329  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:29.874148  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:29.879047  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.879057  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:29.879330  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.879333  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:29.879336  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:29.879369  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:29.879377  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:29.879818  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:29.879822  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:29.879824  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:29.880228  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:29.891870  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.891883  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:29.892092  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.892096  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:29.892099  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:29.972177  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:29.972194  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.972198  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:29.972595  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.972599  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:29.972601  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:29.973264  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.973273  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:29.973531  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.973534  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:29.973536  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:29.973948  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:29.973953  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:29.974169  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:29.974172  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:29.974174  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:30.073518  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:30.073542  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.073546  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:30.073935  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.073938  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:30.073940  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:30.074769  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.074792  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:30.074997  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.075001  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:30.075003  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:30.075280  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.075285  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:30.075547  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.075551  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:30.075552  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:30.133203  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.133219  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58048
+I1003 14:25:30.133220  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90304
+I1003 14:25:30.134994  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.135001  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58048
+I1003 14:25:30.135004  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90304
+I1003 14:25:30.135679  7849 getmultilidardata.cpp:1580]  time:0.256633
+I1003 14:25:30.136190  7849 getmultilidardata.cpp:1600] pub pointcloud:122195
+I1003 14:25:30.136199  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.136694  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:30.136700  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.137167  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:30.137172  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.137990  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:30.137993  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.138463  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:30.138469  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:30.138470  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:30.138804  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:30.138808  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:30.138810  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:30.139122  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:30.139127  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.139487  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:30.139489  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.139883  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:30.142076  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.142083  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58208
+I1003 14:25:30.142086  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90464
+I1003 14:25:30.143690  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.143695  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58208
+I1003 14:25:30.143697  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90464
+I1003 14:25:30.144309  7849 getmultilidardata.cpp:1580]  time:0.170362
+I1003 14:25:30.144866  7849 getmultilidardata.cpp:1600] pub pointcloud:123123
+I1003 14:25:30.144873  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.145709  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:30.145716  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.146513  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:30.146519  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.146836  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:30.146847  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.147074  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:30.147079  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.147289  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:30.147294  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.147526  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:30.169481  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.169500  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58304
+I1003 14:25:30.169502  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90960
+I1003 14:25:30.171154  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.171162  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58304
+I1003 14:25:30.171164  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90960
+I1003 14:25:30.172173  7849 getmultilidardata.cpp:1580]  time:0.0968899
+I1003 14:25:30.172880  7849 getmultilidardata.cpp:1600] pub pointcloud:123219
+I1003 14:25:30.174516  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:30.174540  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.174546  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:30.175269  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.175274  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:30.175277  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:30.175310  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.176234  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:30.176239  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.176383  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.176390  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:30.176898  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.176903  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:30.176906  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:30.177191  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.177206  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:30.177677  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.177681  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:30.177683  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:30.177912  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:30.177919  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.178310  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:30.178314  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.178637  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:30.178639  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.178974  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:30.178978  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.179497  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:30.185577  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:30.275465  7913 myhdl_grabber.cpp:565] id:0 temprotation:8 last_azimuth_35988
+I1003 14:25:30.275478  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.275482  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:30.276244  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.276248  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:30.276252  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:30.277506  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.277516  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:30.277717  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.277721  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:30.277724  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:30.278018  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.278023  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:30.278333  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.278337  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:30.278339  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:30.376034  7913 myhdl_grabber.cpp:565] id:0 temprotation:4 last_azimuth_35988
+I1003 14:25:30.376046  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.376050  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:30.376418  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.376421  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:30.376425  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:30.377133  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.377156  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:30.377172  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.377177  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:30.377552  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.377555  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:30.377558  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:30.377614  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.377617  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:30.377620  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:30.455210  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.455255  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58336
+I1003 14:25:30.455257  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90976
+I1003 14:25:30.456734  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.456740  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58336
+I1003 14:25:30.456743  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90976
+I1003 14:25:30.457384  7849 getmultilidardata.cpp:1580]  time:0.280198
+I1003 14:25:30.457835  7849 getmultilidardata.cpp:1600] pub pointcloud:123235
+I1003 14:25:30.457844  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.458683  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:30.458694  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.459566  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:30.459576  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.459892  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:30.459897  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.460244  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:30.460248  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.460618  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:30.460623  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.460850  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:30.460853  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:30.460855  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:30.461383  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:30.461402  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:30.461405  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:30.461896  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:30.461900  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:30.461902  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:30.462174  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:30.462179  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:30.462182  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:30.462450  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:30.462452  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:30.462455  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:30.462669  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:30.464056  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.464067  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58112
+I1003 14:25:30.464069  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89616
+I1003 14:25:30.465142  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.465145  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58112
+I1003 14:25:30.465147  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90368
+I1003 14:25:30.465776  7849 getmultilidardata.cpp:1580]  time:0.0886453
+I1003 14:25:30.466336  7849 getmultilidardata.cpp:1600] pub pointcloud:122259
+I1003 14:25:30.466342  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.466763  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:30.476701  7913 myhdl_grabber.cpp:565] id:0 temprotation:8 last_azimuth_35988
+I1003 14:25:30.476713  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.476717  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:30.477190  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.477193  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:30.477196  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:30.477205  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.478087  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:30.478134  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.478142  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.478149  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:30.478688  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.478693  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:30.478696  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:30.479084  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:30.479089  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.479113  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.479125  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:30.479727  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:30.479732  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:30.479733  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:30.479787  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.479815  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:30.479822  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:30.480458  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:30.480463  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.480988  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:30.480990  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.481326  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:30.501864  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:30.576650  7913 myhdl_grabber.cpp:565] id:0 temprotation:12 last_azimuth_35992
+I1003 14:25:30.576664  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.576668  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:30.577080  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.577082  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:30.577085  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:30.577505  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.577527  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:30.577771  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.577775  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:30.577777  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:30.578306  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.578316  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:30.578601  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.578604  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:30.578608  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:30.676460  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:30.676483  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.676501  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:30.676836  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.676837  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:30.676841  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:30.677613  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.677644  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:30.677950  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.677953  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:30.677956  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:30.678486  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.678495  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:30.678959  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.678962  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:30.678966  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:30.732662  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.732676  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57920
+I1003 14:25:30.732678  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90288
+I1003 14:25:30.735188  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.735208  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57920
+I1003 14:25:30.735210  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90288
+I1003 14:25:30.735821  7849 getmultilidardata.cpp:1580]  time:0.256713
+I1003 14:25:30.736356  7849 getmultilidardata.cpp:1600] pub pointcloud:122931
+I1003 14:25:30.736524  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.737432  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:30.737442  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.738313  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:30.738322  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.738740  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:30.738763  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.738974  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:30.738978  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.739228  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:30.739233  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.739490  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:30.739493  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:30.739495  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:30.740041  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:30.740046  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:30.740047  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:30.740698  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:30.740705  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:30.740705  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:30.741092  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:30.741096  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:30.741098  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:30.741437  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:30.741441  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:30.741442  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:30.741770  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:30.741772  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:30.741775  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:30.742144  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:30.744163  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.744168  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57472
+I1003 14:25:30.744186  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89360
+I1003 14:25:30.745421  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:30.745426  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57472
+I1003 14:25:30.745429  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89360
+I1003 14:25:30.746085  7849 getmultilidardata.cpp:1580]  time:0.0676017
+I1003 14:25:30.746631  7849 getmultilidardata.cpp:1600] pub pointcloud:121635
+I1003 14:25:30.775885  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:30.775916  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.775925  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:30.777000  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.777006  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:30.777009  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:30.777063  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.777971  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:30.777974  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:30.778494  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:30.778506  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.778509  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:30.778793  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.778796  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:30.778798  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:30.778833  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.779351  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:30.779356  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:30.779379  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.779386  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:30.779872  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:30.779906  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.779908  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:30.779911  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:30.779945  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.780447  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:30.780450  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:30.780728  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:30.817806  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:30.874413  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:30.874426  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.874431  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:30.874765  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.874768  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:30.874771  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:30.875617  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.875627  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:30.875829  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.875833  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:30.875835  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:30.876325  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.876333  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:30.876538  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.876541  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:30.876543  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:30.973661  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:30.973675  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.973678  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:30.974016  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.974021  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:30.974023  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:30.974542  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.974547  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:30.974761  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.974764  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:30.974766  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:30.975001  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:30.975005  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:30.975203  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:30.975205  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:30.975208  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:31.046612  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.046627  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57248
+I1003 14:25:31.046628  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89120
+I1003 14:25:31.048889  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.048897  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57248
+I1003 14:25:31.048897  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89120
+I1003 14:25:31.049500  7849 getmultilidardata.cpp:1580]  time:0.270121
+I1003 14:25:31.050060  7849 getmultilidardata.cpp:1600] pub pointcloud:120995
+I1003 14:25:31.050083  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.050906  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.050918  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.051693  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.051700  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.051975  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.051980  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.052222  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:31.052227  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.052448  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.052453  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.052657  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.055162  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.055173  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57088
+I1003 14:25:31.055176  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88576
+I1003 14:25:31.057175  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.057186  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57088
+I1003 14:25:31.057188  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88576
+I1003 14:25:31.059264  7849 getmultilidardata.cpp:1580]  time:0.182926
+I1003 14:25:31.060559  7849 getmultilidardata.cpp:1600] pub pointcloud:120083
+I1003 14:25:31.060578  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.061800  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.061815  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.062693  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.062702  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.063102  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.063105  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.063335  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:31.063340  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.063685  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.063689  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.063990  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.065642  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.065659  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=56992
+I1003 14:25:31.065661  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88480
+I1003 14:25:31.067337  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.067342  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=56992
+I1003 14:25:31.067343  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88480
+I1003 14:25:31.068346  7849 getmultilidardata.cpp:1580]  time:0.0933427
+I1003 14:25:31.069543  7849 getmultilidardata.cpp:1600] pub pointcloud:119971
+I1003 14:25:31.072283  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:31.072322  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.072329  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:31.072991  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.072995  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:31.072999  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:31.072999  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.074312  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.074328  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.074965  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.075042  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.075053  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:31.075050  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.075060  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:31.075593  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.075594  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.075596  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:31.075598  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:31.075599  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:31.075600  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:31.076148  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.076464  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.076469  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.076812  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.076817  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.077139  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.077143  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.077466  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:31.133584  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:31.171581  7913 myhdl_grabber.cpp:565] id:0 temprotation:12 last_azimuth_35992
+I1003 14:25:31.171607  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.171612  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:31.171954  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.171977  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:31.171978  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:31.172750  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.172760  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:31.173132  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.173139  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:31.173142  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:31.173437  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.173441  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:31.173691  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.173693  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:31.173696  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:31.270254  7913 myhdl_grabber.cpp:565] id:0 temprotation:8 last_azimuth_35988
+I1003 14:25:31.270267  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.270272  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:31.270658  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.270661  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:31.270665  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:31.271600  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.271608  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:31.271803  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.271807  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:31.271809  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:31.272281  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.272302  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:31.272503  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.272507  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:31.272509  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:31.347815  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.347827  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=56992
+I1003 14:25:31.347829  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88864
+I1003 14:25:31.348891  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.348896  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=56992
+I1003 14:25:31.348898  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88864
+I1003 14:25:31.349545  7849 getmultilidardata.cpp:1580]  time:0.274496
+I1003 14:25:31.350016  7849 getmultilidardata.cpp:1600] pub pointcloud:120371
+I1003 14:25:31.350026  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.350891  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.350899  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.351691  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.351699  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.352031  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.352035  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.352238  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.352244  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.352455  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.352460  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.352735  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:31.352739  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:31.352741  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:31.353281  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.353286  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:31.353288  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:31.353919  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.353922  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:31.353924  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:31.354333  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.354337  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:31.354339  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:31.354737  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:31.354744  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:31.354746  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:31.355103  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.355108  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:31.355108  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:31.355525  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.356657  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.356662  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57216
+I1003 14:25:31.356664  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88704
+I1003 14:25:31.358091  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.358096  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57216
+I1003 14:25:31.358098  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=88704
+I1003 14:25:31.358780  7849 getmultilidardata.cpp:1580]  time:0.0865008
+I1003 14:25:31.359688  7849 getmultilidardata.cpp:1600] pub pointcloud:120579
+I1003 14:25:31.370121  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:31.370138  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.370142  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:31.370656  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.370679  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:31.370682  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:31.370695  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.371520  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.371523  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.371846  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.371917  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.371925  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:31.372125  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.372128  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:31.372130  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:31.372179  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.372469  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.372496  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:31.372838  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.372843  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.373198  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.373203  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:31.373205  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:31.373522  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.373528  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.374157  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.374161  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.374622  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:31.449882  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:31.470142  7913 myhdl_grabber.cpp:565] id:0 temprotation:8 last_azimuth_35988
+I1003 14:25:31.470166  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.470170  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:31.470577  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.470579  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:31.470582  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:31.471019  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.471024  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:31.471032  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.471042  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:31.471397  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.471400  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:31.471405  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:31.471423  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.471426  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:31.471429  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:31.570693  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:31.570706  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.570710  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:31.571103  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.571106  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:31.571108  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:31.571586  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.571596  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:31.571861  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.571866  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:31.571868  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:31.572296  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.572305  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:31.572515  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.572520  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:31.572521  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:31.644282  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.644296  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57440
+I1003 14:25:31.644299  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89712
+I1003 14:25:31.645334  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.645341  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57440
+I1003 14:25:31.645344  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89712
+I1003 14:25:31.645925  7849 getmultilidardata.cpp:1580]  time:0.27346
+I1003 14:25:31.646626  7849 getmultilidardata.cpp:1600] pub pointcloud:121587
+I1003 14:25:31.646641  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.648115  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.648123  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.648984  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.648989  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.649221  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.649226  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.649436  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.649441  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.649690  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:31.649695  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.649917  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.651083  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.651089  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57664
+I1003 14:25:31.651090  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89152
+I1003 14:25:31.652263  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.652267  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57664
+I1003 14:25:31.652269  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89152
+I1003 14:25:31.652951  7849 getmultilidardata.cpp:1580]  time:0.181918
+I1003 14:25:31.653460  7849 getmultilidardata.cpp:1600] pub pointcloud:120659
+I1003 14:25:31.653468  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.654284  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.654290  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.655113  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.655120  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.655426  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.655429  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.655684  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:31.655689  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.655946  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.655949  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.656178  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.657521  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.657524  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57920
+I1003 14:25:31.657526  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90176
+I1003 14:25:31.658789  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.658794  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57920
+I1003 14:25:31.658795  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90176
+I1003 14:25:31.659634  7849 getmultilidardata.cpp:1580]  time:0.0873382
+I1003 14:25:31.660532  7849 getmultilidardata.cpp:1600] pub pointcloud:122819
+I1003 14:25:31.671306  7913 myhdl_grabber.cpp:565] id:0 temprotation:2 last_azimuth_35984
+I1003 14:25:31.671322  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.671326  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:31.672181  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.672204  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:31.672209  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:31.672217  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.673460  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.673491  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.673501  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.673511  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:31.674288  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.674293  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:31.674296  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:31.674834  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.674927  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.675107  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.675114  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:31.675544  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.675546  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.675751  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.675756  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:31.675760  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:31.676154  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:31.676158  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.676590  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.676592  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.676882  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.765874  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:31.772619  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:31.772627  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.772631  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:31.773006  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.773010  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:31.773012  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:31.773903  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.773912  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:31.774147  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.774150  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:31.774168  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:31.774463  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.774468  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:31.774765  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.774768  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:31.774770  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:31.873844  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:31.873857  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.873862  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:31.874292  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.874296  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:31.874300  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:31.875205  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.875214  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:31.875437  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.875440  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:31.875443  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:31.875865  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.875883  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:31.876099  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.876102  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:31.876104  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:31.933921  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.933933  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58112
+I1003 14:25:31.933936  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90656
+I1003 14:25:31.935344  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.935350  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58112
+I1003 14:25:31.935353  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90656
+I1003 14:25:31.936302  7849 getmultilidardata.cpp:1580]  time:0.261198
+I1003 14:25:31.936908  7849 getmultilidardata.cpp:1600] pub pointcloud:122915
+I1003 14:25:31.936916  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.937656  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.937662  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.938472  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.938478  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.938916  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.938921  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.939211  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.939215  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.939433  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.939437  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.939685  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:31.939689  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:31.939692  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:31.940222  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.940227  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:31.940228  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:31.940766  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.940770  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:31.940773  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:31.941053  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.941056  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:31.941058  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:31.941352  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:31.941355  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:31.941357  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:31.941747  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.941751  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:31.941751  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:31.942584  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.944149  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.944159  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58400
+I1003 14:25:31.944160  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90656
+I1003 14:25:31.945340  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:31.945346  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58400
+I1003 14:25:31.945348  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90656
+I1003 14:25:31.946740  7849 getmultilidardata.cpp:1580]  time:0.070876
+I1003 14:25:31.948220  7849 getmultilidardata.cpp:1600] pub pointcloud:123315
+I1003 14:25:31.975188  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:31.975201  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.975204  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:31.975589  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.975594  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:31.975595  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:31.975631  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.976352  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:31.976356  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:31.976671  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.976693  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:31.976886  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:31.976977  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.976980  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:31.976984  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:31.977000  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.977453  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:31.977457  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:31.977481  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:31.977486  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:31.977869  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:31.977921  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:31.977941  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:31.977944  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.977946  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:31.978615  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:31.978618  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:31.978961  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:32.076404  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:32.076418  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.076421  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:32.076862  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.076879  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:32.076881  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:32.077451  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.077461  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:32.077800  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.077802  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:32.077805  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:32.078205  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.078209  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:32.078480  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.078483  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:32.078486  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:32.081676  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:32.177078  7913 myhdl_grabber.cpp:565] id:0 temprotation:18 last_azimuth_35998
+I1003 14:25:32.177093  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.177098  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:32.177472  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.177475  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:32.177479  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:32.178315  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.178344  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:32.178557  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.178561  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:32.178563  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:32.178789  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.178810  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:32.179078  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.179081  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:32.179083  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:32.252588  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.252601  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58400
+I1003 14:25:32.252604  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=91040
+I1003 14:25:32.253837  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.253844  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58400
+I1003 14:25:32.253845  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=91040
+I1003 14:25:32.254499  7849 getmultilidardata.cpp:1580]  time:0.277018
+I1003 14:25:32.254926  7849 getmultilidardata.cpp:1600] pub pointcloud:123299
+I1003 14:25:32.254935  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:32.255787  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:32.255793  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:32.256912  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:32.256924  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:32.257318  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:32.257321  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:32.257658  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:32.257661  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:32.258049  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:32.258051  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:32.258499  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:32.258527  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:32.258529  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:32.259312  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:32.259316  7849 getmultilidardata.cpp:1424] lidarid:0
+E1003 14:25:32.259318  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:32.259821  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:32.259825  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:32.259827  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:32.260111  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:32.260115  7849 getmultilidardata.cpp:1424] lidarid:2
+E1003 14:25:32.260116  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:32.260427  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:32.262039  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.262167  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58112
+I1003 14:25:32.262171  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90368
+I1003 14:25:32.263482  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.263504  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=58112
+I1003 14:25:32.263506  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90368
+I1003 14:25:32.264225  7849 getmultilidardata.cpp:1580]  time:0.0859112
+I1003 14:25:32.264814  7849 getmultilidardata.cpp:1600] pub pointcloud:122627
+I1003 14:25:32.264822  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:32.265323  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:32.265342  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:32.265789  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:32.277021  7913 myhdl_grabber.cpp:565] id:0 temprotation:12 last_azimuth_35992
+I1003 14:25:32.277055  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.277060  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:32.277755  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.277760  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:32.277762  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:32.277763  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:32.278661  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:32.278791  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:32.279036  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.279048  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:32.279501  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.279505  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:32.279507  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:32.279978  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.279983  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:32.280431  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:32.280438  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:32.280479  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.280483  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:32.280488  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:32.281073  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:32.281078  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:32.281667  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:32.376976  7913 myhdl_grabber.cpp:565] id:0 temprotation:4 last_azimuth_35984
+I1003 14:25:32.377008  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.377012  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:32.377452  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.377458  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:32.377460  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:32.378206  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.378211  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:32.378449  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.378453  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:32.378456  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:32.378765  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.378768  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:32.378978  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.378979  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:32.378983  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:32.397861  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:32.476824  7913 myhdl_grabber.cpp:565] id:0 temprotation:8 last_azimuth_35988
+I1003 14:25:32.476836  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.476840  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:32.477174  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.477177  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:32.477180  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:32.477869  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.477876  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:32.478135  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.478138  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:32.478154  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:32.478395  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.478405  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:32.478749  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.478754  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:32.478757  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:32.527122  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.527135  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57856
+I1003 14:25:32.527137  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90128
+I1003 14:25:32.528692  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.528699  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57856
+I1003 14:25:32.528702  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=90128
+I1003 14:25:32.529630  7849 getmultilidardata.cpp:1580]  time:0.250596
+I1003 14:25:32.530102  7849 getmultilidardata.cpp:1600] pub pointcloud:122387
+I1003 14:25:32.530112  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:32.530474  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:32.530479  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:32.530661  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:32.530666  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:32.531098  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:32.531102  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:32.531530  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:32.531534  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:32.531755  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:32.531759  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:32.531961  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:32.534032  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.534041  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57600
+I1003 14:25:32.534044  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89856
+I1003 14:25:32.535483  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.535487  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57600
+I1003 14:25:32.535490  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89856
+I1003 14:25:32.536182  7849 getmultilidardata.cpp:1580]  time:0.157976
+I1003 14:25:32.536650  7849 getmultilidardata.cpp:1600] pub pointcloud:121347
+I1003 14:25:32.536659  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:32.536988  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:32.536991  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:32.537189  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:32.537194  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:32.537662  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:32.537665  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:32.538033  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:32.538036  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:32.538038  7849 getmultilidardata.cpp:1427] finalcloudmap_origin_.find(lidarid)!=finalcloudmap_origin_.end()
+I1003 14:25:32.538501  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:32.538506  7849 getmultilidardata.cpp:1424] lidarid:1
+E1003 14:25:32.538507  7849 getmultilidardata.cpp:1437] finalcloudmap_calibrated_.find(lidarid)!=finalcloudmap_calibrated_.end()
+I1003 14:25:32.538766  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:32.538770  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:32.539032  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:32.539036  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:32.539397  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:32.541224  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.541229  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57376
+I1003 14:25:32.541231  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89264
+I1003 14:25:32.542508  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.542513  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57376
+I1003 14:25:32.542515  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89264
+I1003 14:25:32.543129  7849 getmultilidardata.cpp:1580]  time:0.0647376
+I1003 14:25:32.543865  7849 getmultilidardata.cpp:1600] pub pointcloud:121523
+I1003 14:25:32.576135  7913 myhdl_grabber.cpp:565] id:0 temprotation:8 last_azimuth_35988
+I1003 14:25:32.576149  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.576153  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:32.576485  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.576506  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:32.576509  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:32.576522  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:32.577394  7849 getmultilidardata.cpp:1432] lidarid:0
+I1003 14:25:32.577401  7849 getmultilidardata.cpp:1424] lidarid:0
+I1003 14:25:32.577908  7849 getmultilidardata.cpp:1442] lidarid:0
+I1003 14:25:32.577956  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.577966  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:32.578279  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.578281  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:32.578297  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:32.578302  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:32.578860  7849 getmultilidardata.cpp:1432] lidarid:2
+I1003 14:25:32.578961  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.578965  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:32.579186  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.579207  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:32.579210  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:32.579218  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:32.579622  7849 getmultilidardata.cpp:1432] lidarid:1
+I1003 14:25:32.579624  7849 getmultilidardata.cpp:1424] lidarid:1
+I1003 14:25:32.579830  7849 getmultilidardata.cpp:1442] lidarid:1
+I1003 14:25:32.579833  7849 getmultilidardata.cpp:1424] lidarid:2
+I1003 14:25:32.580058  7849 getmultilidardata.cpp:1442] lidarid:2
+I1003 14:25:32.676367  7913 myhdl_grabber.cpp:565] id:0 temprotation:14 last_azimuth_35994
+I1003 14:25:32.676381  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.676385  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:32.676908  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.676915  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:32.676918  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:32.682840  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.682852  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:32.683066  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.683070  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:32.683073  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:32.683408  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.683413  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:32.683665  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.683668  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:32.683670  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:32.713956  7916 getmultilidardata.cpp:493] get lidar data
+I1003 14:25:32.773380  7913 myhdl_grabber.cpp:565] id:0 temprotation:8 last_azimuth_35988
+I1003 14:25:32.773392  7913 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.773396  7913 getmultilidardata.cpp:244] id:0
+I1003 14:25:32.773764  7913 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.773768  7913 myhdl_grabber.cpp:754] temper_index_=25
+I1003 14:25:32.773770  7913 getmultilidardata.cpp:244] id:1
+I1003 14:25:32.774693  7915 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.774701  7915 getmultilidardata.cpp:244] id:4
+I1003 14:25:32.774886  7915 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.774889  7915 myhdl_grabber.cpp:754] temper_index_=8
+I1003 14:25:32.774893  7915 getmultilidardata.cpp:244] id:5
+I1003 14:25:32.775187  7914 myhdl_grabber.cpp:750] signal operator start
+I1003 14:25:32.775195  7914 getmultilidardata.cpp:244] id:2
+I1003 14:25:32.775446  7914 myhdl_grabber.cpp:753] signal operator end
+I1003 14:25:32.775449  7914 myhdl_grabber.cpp:754] temper_index_=7
+I1003 14:25:32.775465  7914 getmultilidardata.cpp:244] id:3
+I1003 14:25:32.826148  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.826186  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57184
+I1003 14:25:32.826189  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89056
+I1003 14:25:32.827549  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=0
+I1003 14:25:32.827556  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=57184
+I1003 14:25:32.827558  7849 getmultilidardata.cpp:1300] cloudstartnum[lidarid]=89056
+I1003 14:25:32.829432  7849 getmultilidardata.cpp:1580]  time:0.250469
+I1003 14:25:32.829464  7849 getmultilidardata.cpp:1600] pub pointcloud:120547

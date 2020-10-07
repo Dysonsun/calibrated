@@ -1,0 +1,4 @@
+Log file created at: 2020/10/03 14:59:46
+Running on machine: sundong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1003 14:59:46.352807  4080 getmultilidardata.cpp:371] filter:udp  and (dst port 5017 or dst port 9001 or dst port 9901 or dst port 9902 or dst port 9903)

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>  
+
+  <param name="robot_description"
+    textfile="$(find sensor_driver)/urdf/multivelodyne_3d.urdf" />
+    
+  <node name="robot_state_publisher" pkg="robot_state_publisher"
+    type="robot_state_publisher" />
+
+  <arg name = "rviz_lidar" default="1"/>
+  <arg name = "pub_imu_lidar" default="0"/>
+  <arg name = "save_pcd" default="1" />
+  <arg name = "cali_single_lidar" default="0" />
+  <arg name = "cali_imu_lidar" default="0" />
+  <arg name = "cali_two_lidar" default="0" />
+  <arg name = "cali_lidar_camera" default="0" />
+  
+
+
+  <group if="$(arg save_pcd)">
+    <arg name="configfile" default="$(find sensor_driver)/config/configmultilidar-cwproject.xml" />
+    <arg name="logdir" default="--log_dir=$(find sensor_driver)/../../../data/log" />
+    <arg name="glogparam" default="--logtostderr=0  --colorlogtostderr=1 --stderrthreshold=5   $(arg logdir)" />
+
+    <node pkg="sensor_driver" type="masternode" name="masternode" args="$(arg glogparam)" output="screen">
+      <param name="config_file" value="$(arg configfile)"/>
+    </node>
+
+    <node pkg="sensor_driver" type="getmultilidardata" name="getmultilidardata" args="--logtostderr=0  --colorlogtostderr=1 --stderrthreshold=2   $(arg logdir)" output="screen">
+    </node>
+
+    <group if="$(arg rviz_lidar)">
+      <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz" args="-d $(find sensor_driver)/rviz_cfg/rs_lidar.rviz" />
+    </group>
+  </group>
+
+  <group if="$(arg cali_imu_lidar)">
+    <arg name="bag_file" default="/home/sundong/Exploring/cartographer_new/data/bag/YT_01.bag"/>
+    <arg name="transforms_from_csv" default="false"/>
+    <arg name="csv_file" default="PATH/TO/YOUR.csv"/>
+  
+    <node pkg="lidar_align" name="lidar_align" type="lidar_align_node" output="screen">
+      <param name="input_bag_path" value="$(arg bag_file)" />
+      <param name="input_csv_path" value="$(arg csv_file)" />
+      <param name="output_pointcloud_path" value="$(find lidar_align)/results/$(anon lidar_points).ply" />
+      <param name="output_calibration_path" value="$(find lidar_align)/results/$(anon calibration).txt" />
+      <param name="transforms_from_csv" value="$(arg transforms_from_csv)"/>
+    </node>
+  </group>
+
+  <group if="$(arg cali_imu_lidar)">
+    <node pkg="lidar_automatic_calibration" type="mapping" name="mapping"  output="screen"> </node>
+    <node pkg="lidar_automatic_calibration" type="calibration" name="calibration"  output="screen"> </node> 
+    <node pkg="lidar_automatic_calibration" type="fitline" name="fitline"  output="screen"> </node>
+  </group>
+
+  <group if="$(arg cali_single_lidar)">
+    <node pkg="lidar_camera_calibration" type="calibrate_lidar.py" name="calibrate_lidar"  output="screen"
+      args = " 
+        --calibrate \
+        --pointcloud_topic /lidar_cloud_origin">
+    </node> 
+  </group>
+
+  <group if="$(arg cali_lidar_camera)">
+    <node pkg="lidar_camera_calibration" type="calibrate_camera_lidar.py" name="calibrate_camera_lidar"  output="screen"
+      args = " 
+        --calibrate \
+        --po--calibrate \
+        --image_topic /rgb_right/image_raw/compressed --pointcloud_topic /lidar_cloud_origin \
+        --chessboard_size 7x9 \
+        --square_size 0.12 --lidar_points 500 \
+        --intcloud_topic /lidar_cloud_origin">
+    </node> 
+  </group>
+
+
+
+
+</launch>

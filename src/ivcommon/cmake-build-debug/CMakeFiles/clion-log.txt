@@ -1,0 +1,25 @@
+/home/zzh/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zzh/catkin_ws_test/src/ivcommon
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at cmake/functions.cmake:91 (message):
+  Compiling in Debug mode is not supported and can cause severely degraded
+  performance.  You should change the build type to Release.  If you want to
+  build in Debug mode anyway, call CMake with -DFORCE_DEBUG_BUILD=True
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (google_initialize_ivcommon_project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/zzh/catkin_ws_test/src/ivcommon/cmake-build-debug/CMakeFiles/CMakeOutput.log".

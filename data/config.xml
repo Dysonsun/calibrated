@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <system>
+        <playback_path type="string">/home/sundong/bit_ivrc/calibrationlidar/data</playback_path>
+        <!--<playback_path type="string">/home/qiwang/workspace/record_data/2017-01-10_12-30-38</playback_path>-->
+        <record_path type="string">/home/sundong/bit_ivrc/calibrationlidar/data</record_path>
+        <record_on type="bool">0</record_on>
+        <playback_on type="bool">1</playback_on>
+        <playback_start_at type="double">0</playback_start_at>
+        <!--reserved for the system, always 0-->
+        <system_start_time type="double">1601708386.316018</system_start_time>
+        <log_on type="bool">1</log_on>
+        <log_path type="string">/home/sundong/bit_ivrc/calibrationlidar/data/2020-10-03_14-59-46</log_path>
+        <GetINSData_on type="bool">1</GetINSData_on>
+        <GetGPSData_on type="bool">1</GetGPSData_on>
+    </system>
+    <VehicleParam>
+        <!--丰田!-->
+        <Heading_Error>2</Heading_Error>
+        <!--安装引起的误差，航向是顺时针为正，导航系统偏左，此值为正。单位：度;qjy 20180119-->
+        <steeringratio_l>133.3</steeringratio_l>
+        <steeringratio_r>133.3</steeringratio_r>
+        <VEHICLELEN_M>5.68</VEHICLELEN_M>
+        <VEHICLEWIDTH_M>2.5</VEHICLEWIDTH_M>
+    </VehicleParam>
+    <iv_lidar>
+        <!--realtime=0, playback=1 !-->
+        <playback_on>1</playback_on>
+        <!--playback_mode>1(pcap) 2(pcd)</playback_mode!-->
+        <playback_mode>1</playback_mode>
+        <!--pcapfile>G:\\ivrc\\lidar\\tuolichezhe.pcap</pcapfile!-->
+        <pcapfile>/media/sundong/DYSON_SUN/alllidar.pcap</pcapfile>
+        <!--true or false !-->
+        <record_on>1</record_on>
+        <timeout>0.1</timeout>
+        <show_window>1</show_window>
+        <flag_ogmdetection>0</flag_ogmdetection>
+        <flag_diffdetection>0</flag_diffdetection>
+        <flag_circletangential>0</flag_circletangential>
+        <flag_circleradius>0</flag_circleradius>
+        <rigid_heightdiffthreshold>0.3</rigid_heightdiffthreshold>
+        <lidarnum>3</lidarnum>
+        <calibdir>cw</calibdir>
+        <calibrationmode>0</calibrationmode>
+    </iv_lidar>
+    <iv_lidar_back>
+        <!--realtime=0, playback=1 !-->
+        <playback_on>0</playback_on>
+        <!--playback_mode>1(pcap) 2(pcd)</playback_mode!-->
+        <playback_mode>1</playback_mode>
+        <!--pcapfile>G:\\ivrc\\lidar\\tuolichezhe.pcap</pcapfile!-->
+        <pcapfile>/home/sundong/bit_ivrc/zw_project/data/9-24rs32.pcap</pcapfile>
+        <!--true or false !-->
+        <record_on>1</record_on>
+        <timeout>0.1</timeout>
+        <show_window>1</show_window>
+        <flag_ogmdetection>0</flag_ogmdetection>
+        <flag_diffdetection>0</flag_diffdetection>
+        <flag_circletangential>0</flag_circletangential>
+        <flag_circleradius>0</flag_circleradius>
+        <rigid_heightdiffthreshold>0.3</rigid_heightdiffthreshold>
+        <lidarnum>1</lidarnum>
+        <calibdir>cw_back</calibdir>
+        <calibrationmode>0</calibrationmode>
+    </iv_lidar_back>
+    <SideSlope>
+        <!--0.014（1度） 0.0699（4度） 0.1051（6度）0.1405（8度）0.1763 (10度)  0.2124(12度) 0.2492（14度）0.2866（16度）0.3056（17度）0.3247(18度) 0.8391（40度）0.7002（35度）0.5774（30度）1(45度)!-->
+        <downslopeminthreshold>0.2492</downslopeminthreshold>
+        <downslopemaxthreshold>0.7002</downslopemaxthreshold>
+        <downdtaaminthreshold>8</downdtaaminthreshold>
+        <upslopeminthreshold>0.2492</upslopeminthreshold>
+        <upslopemaxthreshold>0.8391</upslopemaxthreshold>
+        <updtaaminthreshold>6</updtaaminthreshold>
+        <display_on>0</display_on>
+    </SideSlope>
+    <GetGPSData>
+        <!--realtime=0, playback=1 !-->
+        <playback_on>0</playback_on>
+        <!--true or false !-->
+        <record_on>1</record_on>
+        <timeout>0.01</timeout>
+        <!--<port>9003</port>-->
+        <port>5017</port>
+        <pos_x>0</pos_x>
+        <pos_y>0</pos_y>
+        <pos_z>0</pos_z>
+        <yaw>0</yaw>
+        <pitch>0</pitch>
+        <roll>0</roll>
+    </GetGPSData>
+    <GetINSData>
+        <!--realtime=0, playback=1 !-->
+        <playback_on>0</playback_on>
+        <!--true or false !-->
+        <record_on>1</record_on>
+        <timeout>0.01</timeout>
+        <!--<port>9002</port>-->
+        <port>9001</port>
+        <serial_on>1</serial_on>
+        <comport>/dev/ttyS0</comport>
+        <baudrate>115200</baudrate>
+        <timeout_ms>1000</timeout_ms>
+    </GetINSData>
+    <GetECUData>
+        <!--realtime=0, playback=1 !-->
+        <playback_on>1</playback_on>
+        <!--true or false !-->
+        <record_on>1</record_on>
+        <timeout>0.01</timeout>
+        <!--<port>9002</port>-->
+        <port>8201</port>
+    </GetECUData>
+</root>

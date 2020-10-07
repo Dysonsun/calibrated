@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ivcommon</name>
+  <version>3.0.20190119</version>
+
+  <description>
+    This is a ROS implementation of COVGRID_SLAM by bit RCIV
+  </description>
+
+  <maintainer email="jikaijin94@gmail.com">Jerry JI</maintainer>
+
+  <license>BSD</license>
+
+  <author email="jikaijin94@gmail.com">Jerry JI</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>g++-static</build_depend>
+  <build_depend>google-mock</build_depend>
+  <build_depend>python-sphinx</build_depend>
+
+  <depend>boost</depend>
+  <depend>ceres-solver</depend>
+  <depend>eigen</depend>
+  <depend>libcairo2-dev</depend>
+  <depend>libgflags-dev</depend>
+  <depend>libgoogle-glog-dev</depend>
+  <depend>lua5.2-dev</depend>
+  <depend>protobuf-dev</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+
+</package>
